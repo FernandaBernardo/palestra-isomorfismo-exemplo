@@ -1,0 +1,15 @@
+{
+  "name": "palestra-exemplo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js --live -- --require ./fake-fs.js:fs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "budo": "4.0.0",
+    "global": "^4.3.0"
+  }
+}
